@@ -103,7 +103,7 @@ export interface SanitizedGoogleAnalytics {
 
 export interface SanitizedHotjar {
   id?: string;
-  snippetVersion: number;
+  snippetVersion?: number;
 }
 
 export interface SanitizedBlog {

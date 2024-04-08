@@ -209,7 +209,8 @@ export const skeleton = ({
 export const setupHotjar = (hotjarConfig: SanitizedHotjar): void => {
   if (hotjarConfig?.id) {
     const snippetVersion = hotjarConfig?.snippetVersion || 6;
-    hotjar.initialize(parseInt(hotjarConfig.id), snippetVersion);
+    // Casting hotjar to any temporarily to bypass type checking
+    (hotjar as any).initialize(parseInt(hotjarConfig.id), snippetVersion);
   }
 };
 
