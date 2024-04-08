@@ -1,5 +1,4 @@
 // gitprofile.config.ts
-
 const CONFIG = {
   github: {
     username: 'jemin-balar', // Your GitHub org/user name. (This is the only required config)
@@ -12,7 +11,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
