@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/jemin-balar/portfolio, then set base to '/portfolio/'.
    */
-  base: 'gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jemin-balar/gitprofile', 'jemin-balar'], // List of repository names to display. example: ['jemin-balar/my-project1', 'jemin-balar/my-project2']
+        projects: ['jemin-balar', 'jemin-balar'], // List of repository names to display. example: ['jemin-balar/my-project1', 'jemin-balar/my-project2']
       },
     },
     external: {
@@ -232,7 +232,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/jemin-balar/gitprofile"
+      class="text-primary" href="https://github.com/jemin-balar"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,

@@ -7,10 +7,10 @@
   "author": "jeminbalar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeminbalar/gitprofile.git"
+    "url": "https://github.com/jeminbalar/"
   },
   "bugs": {
-    "url": "https://github.com/jeminbalar/gitprofile/issues"
+    "url": "https://github.com/jeminbalar"
   },
   "scripts": {
     "dev": "vite",
